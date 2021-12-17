@@ -11852,7 +11852,6 @@ hr.name_line {
 .read_more_div2 {
   text-align: center;
   margin-top: -70px;
-  margin-bottom: 30px;
 }
 
 #readmorecontainer {
@@ -12051,14 +12050,14 @@ font-weight: 700;
   font-size: 14px;
 }
 
-ol {
+ol.reference {
   list-style-type: none;
   counter-reset: elementcounter;
   padding-left: 0;
 }
 
 
-li:before {
+li.reference:before {
   content: "[" counter(elementcounter) "] ";
   counter-increment: elementcounter;
   font-weight: bold;
