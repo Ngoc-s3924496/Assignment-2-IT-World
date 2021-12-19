@@ -606,6 +606,16 @@ progress {
   height: auto;
 }
 
+.img-fluid3 {
+  max-width: 50%;
+  height: auto;
+}
+
+.img-fluid4 {
+  max-width: 25%;
+  height: auto;
+}
+
 .img-fluid_team {
   max-width: 30%;
   height: auto;
